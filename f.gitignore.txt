@@ -1,0 +1,7 @@
+# Исключить временные файлы Ren'Py
+log.txt
+game/cache/
+game/saves/
+game/python-packages/
+.rpyc
+.rpa

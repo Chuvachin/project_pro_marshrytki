@@ -1,0 +1,113 @@
+2024-12-17 07:30:43 UTC
+Windows-10-10.0.19045
+Ren'Py 8.3.4.24120703
+
+Early init took 0.09s
+Loading error handling took 0.18s
+Loading script took 2.88s
+Loading save slot metadata took 0.41s
+Loading persistent took 0.00s
+ - Init at game/gui.rpy:11 took 0.26450 s.
+Running init code took 0.66s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.33s
+Index archives took 0.00s
+Dump and make backups took 0.19s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.05s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.10s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 0.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 27.20.100.8984'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 47, in script
+    jump coming_late
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 1705, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'coming_late'.
+
+While running game code:
+  File "game/script.rpy", line 47, in script
+    jump coming_late
+ScriptError: could not find label 'coming_late'.
+
+Full traceback:
+  File "game/script.rpy", line 47, in script
+    jump coming_late
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 1705, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'coming_late'.
+
+While running game code:
+  File "game/script.rpy", line 47, in script
+    jump coming_late
+ScriptError: could not find label 'coming_late'.
+
+Full traceback:
+  File "game/script.rpy", line 161, in script
+    if oplata = 0:
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 1849, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1207, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1144, in py_compile
+    raise e
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1081, in py_compile
+    raise orig_e
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1073, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/script.rpy, line 161)
+
+While running game code:
+  File "game/script.rpy", line 161, in script
+    if oplata = 0:
+SyntaxError: invalid syntax (game/script.rpy, line 161)
+
+Full traceback:
+  File "game/script.rpy", line 161, in script
+    if oplata = 0:
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 1849, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1207, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1144, in py_compile
+    raise e
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1081, in py_compile
+    raise orig_e
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1073, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/script.rpy, line 161)
+
+While running game code:
+  File "game/script.rpy", line 161, in script
+    if oplata = 0:
+SyntaxError: invalid syntax (game/script.rpy, line 161)
