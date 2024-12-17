@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 163: invalid syntax
-    if oplata = 0:
-               ^
-
-File "game/script.rpy", line 169: invalid syntax
-    else:
-     ^
+File "game/script.rpy", line 69: expected statement.
+    pozdno += 1
+           ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Tue Dec 17 17:57:19 2024
+Tue Dec 17 20:11:49 2024
