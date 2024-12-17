@@ -1,14 +1,14 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 161, in script
+  File "game/script.rpy", line 163, in script
     if oplata = 0:
-SyntaxError: invalid syntax (game/script.rpy, line 161)
+SyntaxError: invalid syntax (game/script.rpy, line 163)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 161, in script
+  File "game/script.rpy", line 163, in script
     if oplata = 0:
   File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 1849, in execute
     if renpy.python.py_eval(condition):
@@ -20,9 +20,9 @@ Full traceback:
     raise orig_e
   File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1073, in py_compile
     tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
-SyntaxError: invalid syntax (game/script.rpy, line 161)
+SyntaxError: invalid syntax (game/script.rpy, line 163)
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.4.24120703
 Your buses are concentration camps 1.0
-Tue Dec 17 12:08:36 2024
+Tue Dec 17 17:59:18 2024

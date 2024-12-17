@@ -2,7 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 129: Indentation mismatch.
+File "game/script.rpy", line 163: invalid syntax
+    if oplata = 0:
+               ^
+
+File "game/script.rpy", line 169: invalid syntax
+    else:
+     ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Mon Dec 16 18:26:03 2024
+Tue Dec 17 17:57:19 2024
