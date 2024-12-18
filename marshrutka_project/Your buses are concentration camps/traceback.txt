@@ -1,0 +1,42 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 216, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 548, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 548, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 559, in _execute_python_hide
+    renpy.load(renpy.session["_reload_slot"])
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 216, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 548, in script
+    python hide:
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00keymap.rpy", line 548, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 559, in _execute_python_hide
+    renpy.load(renpy.session["_reload_slot"])
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\loadsave.py", line 838, in load
+    log.unfreeze(roots, label="_after_load")
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\rollback.py", line 1135, in unfreeze
+    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\rollback.py", line 930, in rollback
+    self.load_failed()
+  File "C:\Users\слава угольников\Downloads\renpy-8.3.4-sdk\renpy\rollback.py", line 848, in load_failed
+    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.4.24120703
+Как не умереть в маршрутке 
+Wed Dec 18 01:59:21 2024
