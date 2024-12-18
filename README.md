@@ -12,7 +12,6 @@
 ## Превью
 Вы можете посмотреть, как выглядит игра.
 ![image](https://github.com/user-attachments/assets/c6f6b1a9-e8a3-4300-8b1d-e96f1270c5df)
-![image](https://github.com/user-attachments/assets/66b455cb-5a85-4677-beac-a1c3e7b79abd)
 ![image](https://github.com/user-attachments/assets/bf90826f-a1d5-4782-b6bc-d0c8e4c712f5)
 ![image](https://github.com/user-attachments/assets/1f789b99-cec5-4024-b0be-46ee0aa03434)
 
@@ -35,6 +34,6 @@
 Если наши инвесторы нас поддержат, мы придумаем что-то ещё.
 
 ## Создатели
-Корнева Дарья — автор идеи, цензор, тестировщик.
-Онофриенко Софья — разработчик.
-Угольников Вячеслав — разработчик.
+* Корнева Дарья — автор идеи, цензор, тестировщик.
+* Онофриенко Софья — разработчик.
+* Угольников Вячеслав — разработчик.
